@@ -1,0 +1,32 @@
+*{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #3c4142;
+    color: #4682B4;
+    margin: 0;
+    padding: 0;
+}
+
+.nav ul li{
+    position: absolute;
+    display: inline;
+    background-color: #3c4142;
+    padding: 0px 20px;
+    text-decoration: none;
+  }
+
+  body{
+    position: relative;
+    word-spacing: normal;
+}
+
+.tooltip{
+    position: relative;
+}
+
+.tooltip:hover::after{
+    content: "Civilization is a turn-based strategy game in which you attempt to build an empire to stand the test of time. Become Ruler of the World by establishing and leading a civilization from the Stone Age to the Information Age.";
+    background-color: gray;
+    color: blue;
+    padding: 5px;
+    border-radius: 5px;
+}
