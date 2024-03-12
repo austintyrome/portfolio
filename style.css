@@ -14,19 +14,21 @@
     margin-top: 0;
 }
 
-#work{
+#work {
     display: grid;
+    gap: 20px 20px;
 }
-    
-#seo {
-        background-image: url(https://images.app.goo.gl/SHwoGVhurbuVpj97A);
-        height: 18%;
-    }
-    #seo p {
-        width: 80%;
-        background-color: rgb(255, 255, 255);
-        color:#ffff;
-    }
+
+/*#seo {
+    background-image: url(https://images.app.goo.gl/SHwoGVhurbuVpj97A);
+}*/
+
+#seo p {
+    background-color: #fff;
+    color: #4682B4;
+}
+
+#project
 
 body {
     position: relative;
