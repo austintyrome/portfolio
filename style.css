@@ -1,34 +1,97 @@
 * {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    background-color: black;
+    background-color: ;
     color: #4682B4;
     margin: 0;
     padding: 0;
 }
-
+.header{
+    background-color: brown;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 75px;
+    padding: 20px;
+    align-items: center;
+}
 .nav ul li {
-    background-color: aquamarine;
     list-style: none;
     display: inline;
-    float: right;
     margin-top: 0;
 }
-
+.about{
+display: flex;
+flex-direction: row;
+padding: 20px;
+}
+.about h1{
+    width: 20%;
+    text-align: right;
+    padding-right: 25px;
+    max-width: 200px;
+}
+.bio{
+    border-left: 2px solid black;
+    padding-left: 25px;
+width: 80%;
+}
+.work{
+    display: flex;
+    flex-direction: row;
+    padding: 20px; 
+}
+.work h2{
+    width: 20%;
+    text-align: right;
+    padding-right: 25px;
+    max-width: 200px;
+}
 #work {
-    display: grid;
-    gap: 20px 20px;
+    /* display: grid;
+    gap: 20px 20px; */
+    width: 80%;
+    border-left: 2px solid black;
+    padding-left: 25px;
+}
+.contact-area{
+    display: flex;
+    flex-direction: row;
+    padding: 20px;   
+}
+.contact-area h3{
+    width: 20%;
+    text-align: right;
+    padding-right: 25px;
+    max-width: 200px;
+}
+.contact{
+    width: 80%;
+    border-left: 2px solid black;
+    padding-left: 25px;  
 }
 
-/*#seo {
-    background-image: url(https://images.app.goo.gl/SHwoGVhurbuVpj97A);
-}*/
+
+#seo {
+    background-image: url(./images/marketing.webp);
+    background-position: center;
+    background-size: fit;
+    height: 300px;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+}
 
 #seo p {
-    background-color: #fff;
     color: #4682B4;
+    padding: 20px;
+    border: 2px solid orange;
+    width: 150px;
+    background-color: aquamarine;
 }
 
-#project
+#project{
+
+}
 
 body {
     position: relative;
