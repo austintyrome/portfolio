@@ -185,6 +185,27 @@ body {
     background-color: #157145;
 
 }
+#seo:hover{
+    color: #111;
+    background: #fcc8b2;
+    box-shadow: 0 0 10px #fcc8b2;
+    
+}
+.project2:hover{
+    color: #111;
+    background: #fcc8b2;
+    box-shadow: 0 0 10px #fcc8b2;
+}
+.project3:hover{
+    color: #111;
+    background: #fcc8b2;
+    box-shadow: 0 0 10px #fcc8b2;
+}
+.project4:hover{
+    color: #111;
+    background: #fcc8b2;
+    box-shadow: 0 0 10px #fcc8b2;
+}
 
 @media (min-width: 992px) {
     
