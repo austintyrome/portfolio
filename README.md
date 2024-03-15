@@ -24,6 +24,9 @@ THOSE elements are active and are able to be used
 
 * **Austin Godfrey** [austintyrome](https://github.com/austintyrome)
 
-# License
+## License
 
 This repository uses the MIT license
+
+## Links to project
+<a herf="https://github.com/austintyrome/portfolio">Git Hub Repo</a>
