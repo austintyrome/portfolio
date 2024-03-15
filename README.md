@@ -30,5 +30,5 @@ This repository uses the MIT license
 
 ## Links to project
 
-<a herf="https://github.com/austintyrome/portfolio">Git Hub Repo</a>
-<a her="https://austintyrome.github.io/portfolio/">Portfolio Page</a>
+* **GitHub Repo** [GitHub Repo](https://github.com/austintyrome/portfolio)
+* **Portfolio Page** [Protfolio](https://austintyrome.github.io/portfolio/)
