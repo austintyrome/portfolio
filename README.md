@@ -8,7 +8,7 @@
 
 ## Preview
 
-<href a= >
+
 
 ## Contact
 [Austin Godfrey](mailto:austintyrome@gmail.com?subject=[GitHub]%20Source%20Han%20Sans)
@@ -16,11 +16,11 @@
 
 ## Repo
 
-<href a= https://github.com/austintyrome/portfolio>
+[GitHub Repo](https://github.com/austintyrome/portfolio)
 
 ## Resources
 
-<href a= https://ileriayo.github.io/markdown-badges/>
+[Badges Markdown](https://ileriayo.github.io/markdown-badges/)
 
   ![Google Drive](https://img.shields.io/badge/Google%20Drive-4285F4?style=for-the-badge&logo=googledrive&logoColor=white)
 ![ChatGPT](https://img.shields.io/badge/chatGPT-74aa9c?style=for-the-badge&logo=openai&logoColor=white)
