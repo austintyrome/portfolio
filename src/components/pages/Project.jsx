@@ -3,7 +3,7 @@ export default function Project() {
       <div>
         <h1>Project Page</h1>
         <p>
-       
+       projects Here
         </p>
       </div>
     );
