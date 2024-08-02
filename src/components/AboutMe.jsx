@@ -6,8 +6,6 @@ function AboutMe() {
       <h2>About Me</h2>
       <img src="path/to/your/photo.jpg" alt="Developer Avatar" />
       <p>
-Sure, here's a 500-word bio highlighting your skills in management, friendliness, multitasking, problem-solving, adaptability, strong work ethic, and communication:
-
 As a professional with extensive experience in various fields, I have cultivated a unique skill set that combines effective management, exceptional friendliness, adept multitasking, innovative problem-solving, adaptability, a strong work ethic, and superior communication. These skills have been instrumental in my ability to deliver outstanding results and foster positive relationships in every role I undertake.
 
 Management
