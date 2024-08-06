@@ -1,27 +1,22 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import Header from './components/Header';
-import Footer from './components/Footer';
-import AboutMe from './components/AboutMe';
-import Portfolio from './components/Portfolio';
-import Contact from './components/Contact';
-import Resume from './components/Resume';
+import { Routes, Route } from 'react-router-dom';
+import { Header, Footer, AboutMe, Contact, Portfolio, Resume } from './components';
 import './App.css';
+// import { Outlet } from 'react-router-dom';
 
 function App() {
   return (
-    <Router>
-      <div className="App">
-        <Header />
-        <Switch>
-          <Route path="/" exact component={AboutMe} />
-          <Route path="/portfolio" component={Portfolio} />
-          <Route path="/contact" component={Contact} />
-          <Route path="/resume" component={Resume} />
-        </Switch>
-        <Footer />
-      </div>
-    </Router>
+    <div className="app">
+      <Header />
+      <Routes>
+        <Route path="/" element={<AboutMe />} />
+        <Route path="/about-me" element={<AboutMe />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/resume" element={<Resume />} />
+        <Route path="/portfolio" element={<Portfolio />} />
+      </Routes>
+      <Footer />
+    </div>
   );
 }
 
