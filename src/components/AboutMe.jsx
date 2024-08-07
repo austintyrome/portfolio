@@ -1,12 +1,14 @@
 import  React, { useEffect, useState } from 'react';
 
 function AboutMe() {
-  return (
-    <section>
-      <h2>About Me</h2>
-      <img src="path/to/your/photo.jpg" alt="Developer Avatar" />
-      <p>
-As a professional with extensive experience in various fields, I have cultivated a unique skill set that combines effective management, exceptional friendliness, adept multitasking, innovative problem-solving, adaptability, a strong work ethic, and superior communication. These skills have been instrumental in my ability to deliver outstanding results and foster positive relationships in every role I undertake.
+  return(
+      <div className='card'>
+          <div>
+              <div>
+              <img src='' alt='Profile pic'></img>
+              <h2>About Me</h2>
+              </div>
+             <p>My name is Austin Godfrey. I am looking to make a career change into web development. I have worked in the medical field for the last 4 years medical assisting and before that I was a manger at Dairy Queen. A cornerstone of who I am is my friendliness and approachability. I believe in creating a welcoming environment where colleagues and clients feel valued and understood. My ability to build rapport quickly has helped me establish strong professional relationships, enhance team cohesion, and improve client satisfaction. My leadership style is collaborative and inclusive, empowering team members to contribute their best while fostering a culture of mutual respect and shared success. Problem-solving is one of my strongest attributes. I approach challenges with a solution-oriented mindset. 
 
 Management
 My journey in management has equipped me with the ability to lead teams effectively, ensuring projects are completed on time and within budget. I excel at coordinating resources, setting clear goals, and maintaining a focused approach to achieve organizational objectives. My leadership style is collaborative and inclusive, empowering team members to contribute their best while fostering a culture of mutual respect and shared success.
@@ -28,8 +30,10 @@ A strong work ethic underpins all my professional endeavors. I am committed to d
 
 Communication
 Effective communication is the glue that binds all my skills together. Whether it's conveying complex ideas clearly, listening actively to understand others, or providing constructive feedback, my communication skills are second to none. I excel at tailoring my message to suit different audiences, ensuring clarity and engagement. This ability to communicate effectively has been instrumental in building strong teams, fostering collaboration, and maintaining positive client relationships.</p>
-    </section>
-  );
+              
+          </div>
+      </div>
+  )   
 }
 
 export default AboutMe;
