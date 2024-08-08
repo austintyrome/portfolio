@@ -1,13 +1,12 @@
 import React from 'react';
 import { Routes, Route } from 'react-router-dom';
-import { Header, Footer, AboutMe, Contact, Portfolio, Resume } from './components';
+import { Nav, Footer, AboutMe, Contact, Portfolio, Resume } from './components';
 import './App.css';
-// import { Outlet } from 'react-router-dom';
 
 function App() {
   return (
     <div className="app">
-      <Header />
+      <Nav />
       <Routes>
         <Route path="/" element={<AboutMe />} />
         <Route path="/about-me" element={<AboutMe />} />

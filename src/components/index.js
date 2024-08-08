@@ -1,6 +1,6 @@
-export { default as Header } from './Header';
-export { default as Footer } from './Footer';
-export { default as AboutMe } from './AboutMe';
-export { default as Contact } from './Contact';
-export { default as Portfolio } from './Portfolio';
-export { default as Resume } from './Resume';
+export { default as Header } from './nav';
+export { default as Footer } from './footer';
+export { default as AboutMe } from './aboutMe';
+export { default as Contact } from './contact';
+export { default as Portfolio } from './portfolio';
+export { default as Resume } from './resume';
