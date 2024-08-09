@@ -1,48 +1,216 @@
+:root {
+  --black: black;
+  --white: #E8E8E8;
+  --accent1: #5d0cff;
+  --charcoal: #36454F;
+}
+
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+}
+
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  header {
-    background-color: #333;
-    color: black;
-    padding: 1rem;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  
-  nav a {
-    color: white;
-    margin: 0 1rem;
-    text-decoration: none;
-  }
-  
-  nav a.active {
-    font-weight: bold;
-  }
-  
-  section {
-    padding: 2rem;
-  }
-  
-  footer {
-    background-color: #333;
-    color: gray;
-    text-align: center;
-    padding: 1rem;
-    position: fixed;
-    width: 100%;
-    bottom: 0;
-  }
-  
-  .project {
-    margin-bottom: 2rem;
-  }
-  
-  .project img {
-    max-width: 100%;
-  }
-  
+  background-color: var(--charcoal);
+}
+
+/* a {
+  padding: 6px;
+  font-size: 20px;
+  color: var(--charcoal);
+  border: black 2px solid;
+  text-decoration: none;
+} */
+
+.nav-links a {
+  padding: 6px;
+  font-size: 20px;
+  color: var(--charcoal);
+  border: black 2px solid;
+  text-decoration: none;
+}
+
+.nav-links a.active {
+  text-decoration: underline;
+  color: var(--white); /* Optional: Change color for active link */
+}
+
+a:hover {
+  background-color: var(--accent1);
+  cursor: pointer;
+}
+
+/* .fixed-class {
+  position: absolute;
+} */
+
+#contact {
+  text-decoration: none;
+  color: grey;
+}
+
+#about-me {
+  text-decoration: none;
+  color: grey;
+}
+
+#resume {
+  text-decoration: none;
+  color: grey;
+}
+
+#portfolio {
+  text-decoration: none;
+  color: grey;
+}
+
+#contact:hover {
+  text-decoration: none;
+  color: var(--whtie);
+}
+
+#about-me:hover {
+  text-decoration: none;
+  color: var(--whtie);
+}
+
+#resume:hover {
+  text-decoration: none;
+  color: var(--whtie);
+}
+
+#portfolio:hover {
+  text-decoration: none;
+  color: var(--whtie);
+}
+
+.nav {
+  height: 8vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: black;
+}
+
+.nav-left {
+  margin-left: 20px;
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  font-size: .5rem;
+}
+
+
+.nav-links {
+  margin-right: 20px;
+  margin-left: auto;
+}
+
+.footer {
+  width: 100vw;
+  height: 8vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 0px;
+  background-color: black;
+}
+
+.card {
+  display: flex;
+  flex-wrap: wrap;
+  color: var(--white);
+  min-height: 700px;
+  min-width: 85vw;
+  margin: 20px;
+  border: black 2px solid;
+}
+
+.card p {
+  width: 57vw;
+}
+
+.card div {
+  padding: 40px;
+}
+
+.card h2 {
+  font-size: 3rem;
+}
+
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.project-link {
+  width: 300px;
+  height: 300px;
+  display: flex;
+  margin: 20px; 
+}
+
+.project-link:hover {
+  color: var(--accent1)
+}
+
+.project-description {
+  background-color: #E8E8E8;
+}
+
+.project-status {
+  background-color: white;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.error {
+  border-color: red;
+}
+
+.error-text {
+  color: red;
+  font-size: 0.875em;
+}
+
+textarea.form-input {
+  height: 150px; /* Make the message input box taller */
+  resize: vertical; /* Allow vertical resizing */
+}
+
+/* Resume.css */
+.resume-link {
+  text-decoration: none;
+  color: blue;
+  font-size: 1.2em;
+  margin-left: 8px;
+}
+
+.resume-link:hover {
+  text-decoration: underline;
+}
+
+
+.logo-link img {
+  margin: 10px;
+  min-width: 50px;
+  height: 50px;
+  text-decoration: none;
+}

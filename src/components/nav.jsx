@@ -1,7 +1,7 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 
-function Header() {
+function Nav() {
   return (
     <header>
       <h1>Austin Godfrey</h1>
@@ -15,4 +15,4 @@ function Header() {
   );
 }
 
-export default Header;
+export default Nav;

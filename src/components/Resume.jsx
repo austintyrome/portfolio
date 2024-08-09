@@ -1,22 +1,23 @@
 import  React, { useEffect, useState } from 'react';
 
 function Resume() {
-  return (
-    <section>
-      <h2>Resume</h2>
-      <a href="../../public/Austin-Resume" download>Download Resume</a>
-      <h3>Proficiencies</h3>
-      <ul>
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>JavaScript</li>
-        <li>React</li>
-        <li>Node.js</li>
-        <li>Express</li>
-        {/* Add more proficiencies as needed */}
-      </ul>
-    </section>
-  );
+    return (
+        <div className='card'>
+            <h2>
+                Resume
+                <a
+                    href= "../../public/Austin-Resume"
+                    download
+                    className='resume-link'
+                >
+                    ⬇️ (download)
+                </a>
+            </h2>
+            <p>
+                I am proficent in back end work flows like Node.js, SQL, and Python. 
+            </p>
+        </div>
+    );
 }
 
 export default Resume;
