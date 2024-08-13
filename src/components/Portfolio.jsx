@@ -3,40 +3,37 @@ import  React, { useEffect, useState } from 'react';
 function Portfolio() {
   const projects = [
     {
-      title: "Project 1",
-      imgSrc: "path/to/image1.jpg",
+      title: "Happy Quizmore",
+      imgSrc: "https://drive.google.com/file/d/1HvcjEnH3p2lQp-_49VkNk0uYMWjMVVKU/view?usp=drive_link",
       liveLink: "https://project1.com",
       repoLink: "https://github.com/yourprofile/project1"
     },
     {
-      title: "Project 2",
+      title: "Text editor",
       imgSrc: "path/to/image1.jpg",
-      liveLink: "https://project1.com",
-      repoLink: "https://github.com/yourprofile/project1"
+      liveLink: "https://proto-text-editor.onrender.com",
+      repoLink: "https://github.com/austintyrome/proto-text-editor"
     },
     {
-      title: "Project 3",
+      title: "BrewQuest",
       imgSrc: "path/to/image1.jpg",
-      liveLink: "https://project1.com",
-      repoLink: "https://github.com/yourprofile/project1"
+      repoLink: "https://github.com/djinjones/BrewQuest"
     },
     {
-      title: "Project 4",
+      title: "ReadMe Generator",
       imgSrc: "path/to/image1.jpg",
-      liveLink: "https://project1.com",
-      repoLink: "https://github.com/yourprofile/project1"
+      repoLink: "https://github.com/austintyrome/creating-licenses",
+      videoLink: "https://drive.google.com/file/d/1AMR7HiG-lTcqlh75hGhhh9e1tuwMerms/view?usp=drive_link"
     },
     {
-      title: "Project 5",
+      title: "Resorce Rascals",
       imgSrc: "path/to/image1.jpg",
-      liveLink: "https://project1.com",
-      repoLink: "https://github.com/yourprofile/project1"
+      repoLink: "https://mistaken40033.github.io/team_resource_rascals/"
     },
     {
       title: "Project 6",
       imgSrc: "path/to/image1.jpg",
-      liveLink: "https://project1.com",
-      repoLink: "https://github.com/yourprofile/project1"
+      repoLink: "https://github.com/austintyrome/developer-blog"
     },
    
   ];
