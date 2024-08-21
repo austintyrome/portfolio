@@ -1,13 +1,13 @@
 import  React, { useEffect, useState } from 'react';
 
 function Footer() {
-  return (
-    <footer>
-      <a href="https://github.com/austintyrome?tab=repositories" target="_blank" rel="">GitHub</a>
-      <a href="www.linkedin.com/in/austin-godfrey-2b3354269" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-      <a href="https://stackoverflow.com/users/yourprofile" target="_blank" rel="noopener noreferrer">Stack Overflow</a>
-    </footer>
-  );
+    return(
+        <div className='footer'>
+            <a className='logo-link github' href='https://github.com/djinjones'><img src='https://cdn-icons-png.flaticon.com/512/25/25231.png'></img></a>
+            <a className='logo-link linkedin' href='www.linkedin.com/in/austin-godfrey-2b3354269'><img src='https://cdn1.iconfinder.com/data/icons/logotypes/32/circle-linkedin-512.png'></img></a>
+            <a className='logo-link x' href='https://x.com/elonmusk?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor'><img src='https://cdn.prod.website-files.com/5d66bdc65e51a0d114d15891/64cebc6c19c2fe31de94c78e_X-vector-logo-download.png'></img></a>
+        </div>
+    )   
 }
 
 export default Footer;
